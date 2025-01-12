@@ -1,0 +1,29 @@
+﻿@page "/users"
+@using RentingAppFrontend.Models
+@using RentingAppFrontend.Services
+@inject UserService UserService
+
+<h3>Users</h3>
+
+@if (users == null)
+{
+    <p>Loading...</p>
+}
+else
+{
+    <ul>
+        @foreach (var user in users)
+        {
+            <li>@user.Username - @user.Email</li>
+        }
+    </ul>
+}
+
+@code {
+    private List<User> users;
+
+    protected override async Task OnInitializedAsync()
+    {
+        users = await UserService.GetUsersAsync();
+    }
+}

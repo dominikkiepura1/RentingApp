@@ -1,0 +1,63 @@
+/* Ogólny styl tabeli */
+table[b-31z9fdunvp] {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    text-align: left;
+}
+
+/* Nagłówki tabeli */
+table thead th[b-31z9fdunvp] {
+    background-color: #4CAF50; /* Zielone tło dla nagłówków */
+    color: white;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+/* Wiersze tabeli */
+table tbody tr[b-31z9fdunvp] {
+    border: 1px solid #ddd;
+}
+
+/* Naprzemienne podświetlanie wierszy */
+table tbody tr:nth-child(even)[b-31z9fdunvp] {
+    background-color: #f9f9f9;
+}
+
+/* Wiersze tabeli - efekt hover */
+table tbody tr:hover[b-31z9fdunvp] {
+    background-color: #f1f1f1;
+}
+
+/* Komórki tabeli */
+table td[b-31z9fdunvp], table th[b-31z9fdunvp] {
+    padding: 12px;
+}
+
+/* Przyciski */
+button[b-31z9fdunvp] {
+    background-color: #4CAF50; /* Zielone tło */
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover efekt dla przycisków */
+button:hover[b-31z9fdunvp] {
+    background-color: #45a049;
+}
+
+/* Margines między tabelą a nagłówkiem */
+h3[b-31z9fdunvp] {
+    margin-bottom: 15px;
+    font-family: Arial, sans-serif;
+}

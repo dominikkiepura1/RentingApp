@@ -1,0 +1,54 @@
+﻿@page "/car-versions"
+@using RentingAppFrontend.Models
+@using RentingAppFrontend.Services
+@inject ApiService ApiService
+
+<h3>Dostępne Samochody</h3>
+
+<table>
+    <thead>
+        <tr>
+            <th>Marka</th>
+            <th>Model</th>
+            <th>Cena za dzień</th>
+            <th>Akcje</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var car in Cars)
+        {
+            <tr>
+                <td>@car.Brand</td>
+                <td>@car.Model</td>
+                <td>@car.PricePerDay PLN</td>
+                <td>
+                    <button @onclick="() => CreateReservation(car)">Rezerwuj</button>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@code {
+    private List<CarVersion> Cars = new();
+
+    protected override async Task OnInitializedAsync()
+    {
+        Cars = await ApiService.GetCarVersionsAsync();
+    }
+
+    private async Task CreateReservation(CarVersion car)
+    {
+        var reservation = new Reservation
+            {
+                UserId = 1, // Przykładowy UserId
+                Type = "Car",
+                ItemId = car.Id,
+                StartDate = DateTime.Now,
+                EndDate = DateTime.Now.AddDays(2)
+            };
+
+        await ApiService.CreateReservationAsync(reservation);
+        Console.WriteLine("Rezerwacja utworzona!");
+    }
+}

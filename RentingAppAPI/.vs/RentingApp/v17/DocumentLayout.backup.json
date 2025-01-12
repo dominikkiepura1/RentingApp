@@ -1,0 +1,173 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Dominik\\Desktop\\Repos\\RentingApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{19B9B658-854C-4BD6-859F-FE52645C8321}|RentingApp\\RentingApp.csproj|c:\\users\\dominik\\desktop\\repos\\rentingapp\\rentingapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{19B9B658-854C-4BD6-859F-FE52645C8321}|RentingApp\\RentingApp.csproj|solutionrelative:rentingapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19B9B658-854C-4BD6-859F-FE52645C8321}|RentingApp\\RentingApp.csproj|c:\\users\\dominik\\desktop\\repos\\rentingapp\\rentingapp\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19B9B658-854C-4BD6-859F-FE52645C8321}|RentingApp\\RentingApp.csproj|solutionrelative:rentingapp\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19B9B658-854C-4BD6-859F-FE52645C8321}|RentingApp\\RentingApp.csproj|c:\\users\\dominik\\desktop\\repos\\rentingapp\\rentingapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19B9B658-854C-4BD6-859F-FE52645C8321}|RentingApp\\RentingApp.csproj|solutionrelative:rentingapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19B9B658-854C-4BD6-859F-FE52645C8321}|RentingApp\\RentingApp.csproj|c:\\users\\dominik\\desktop\\repos\\rentingapp\\rentingapp\\controllers\\carversionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19B9B658-854C-4BD6-859F-FE52645C8321}|RentingApp\\RentingApp.csproj|solutionrelative:rentingapp\\controllers\\carversionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19B9B658-854C-4BD6-859F-FE52645C8321}|RentingApp\\RentingApp.csproj|c:\\users\\dominik\\desktop\\repos\\rentingapp\\rentingapp\\controllers\\reservationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19B9B658-854C-4BD6-859F-FE52645C8321}|RentingApp\\RentingApp.csproj|solutionrelative:rentingapp\\controllers\\reservationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19B9B658-854C-4BD6-859F-FE52645C8321}|RentingApp\\RentingApp.csproj|c:\\users\\dominik\\desktop\\repos\\rentingapp\\rentingapp\\rentingapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{19B9B658-854C-4BD6-859F-FE52645C8321}|RentingApp\\RentingApp.csproj|solutionrelative:rentingapp\\rentingapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19B9B658-854C-4BD6-859F-FE52645C8321}|RentingApp\\RentingApp.csproj|c:\\users\\dominik\\desktop\\repos\\rentingapp\\rentingapp\\models\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19B9B658-854C-4BD6-859F-FE52645C8321}|RentingApp\\RentingApp.csproj|solutionrelative:rentingapp\\models\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19B9B658-854C-4BD6-859F-FE52645C8321}|RentingApp\\RentingApp.csproj|c:\\users\\dominik\\desktop\\repos\\rentingapp\\rentingapp\\migrations\\20250105144751_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19B9B658-854C-4BD6-859F-FE52645C8321}|RentingApp\\RentingApp.csproj|solutionrelative:rentingapp\\migrations\\20250105144751_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19B9B658-854C-4BD6-859F-FE52645C8321}|RentingApp\\RentingApp.csproj|c:\\users\\dominik\\desktop\\repos\\rentingapp\\rentingapp\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19B9B658-854C-4BD6-859F-FE52645C8321}|RentingApp\\RentingApp.csproj|solutionrelative:rentingapp\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Dominik\\Desktop\\Repos\\RentingApp\\RentingApp\\appsettings.json",
+              "RelativeDocumentMoniker": "RentingApp\\appsettings.json",
+              "ToolTip": "C:\\Users\\Dominik\\Desktop\\Repos\\RentingApp\\RentingApp\\appsettings.json",
+              "RelativeToolTip": "RentingApp\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-11T18:03:44.454Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RentingApp.csproj",
+              "DocumentMoniker": "C:\\Users\\Dominik\\Desktop\\Repos\\RentingApp\\RentingApp\\RentingApp.csproj",
+              "RelativeDocumentMoniker": "RentingApp\\RentingApp.csproj",
+              "ToolTip": "C:\\Users\\Dominik\\Desktop\\Repos\\RentingApp\\RentingApp\\RentingApp.csproj",
+              "RelativeToolTip": "RentingApp\\RentingApp.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-01-11T15:02:26.203Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Reservation.cs",
+              "DocumentMoniker": "C:\\Users\\Dominik\\Desktop\\Repos\\RentingApp\\RentingApp\\Models\\Reservation.cs",
+              "RelativeDocumentMoniker": "RentingApp\\Models\\Reservation.cs",
+              "ToolTip": "C:\\Users\\Dominik\\Desktop\\Repos\\RentingApp\\RentingApp\\Models\\Reservation.cs",
+              "RelativeToolTip": "RentingApp\\Models\\Reservation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-11T14:59:21.585Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "20250105144751_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\Dominik\\Desktop\\Repos\\RentingApp\\RentingApp\\Migrations\\20250105144751_InitialCreate.cs",
+              "RelativeDocumentMoniker": "RentingApp\\Migrations\\20250105144751_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\Dominik\\Desktop\\Repos\\RentingApp\\RentingApp\\Migrations\\20250105144751_InitialCreate.cs",
+              "RelativeToolTip": "RentingApp\\Migrations\\20250105144751_InitialCreate.cs",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAgwGgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T14:47:51.706Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Dominik\\Desktop\\Repos\\RentingApp\\RentingApp\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "RentingApp\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\Dominik\\Desktop\\Repos\\RentingApp\\RentingApp\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "RentingApp\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T14:46:58.806Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Dominik\\Desktop\\Repos\\RentingApp\\RentingApp\\Program.cs",
+              "RelativeDocumentMoniker": "RentingApp\\Program.cs",
+              "ToolTip": "C:\\Users\\Dominik\\Desktop\\Repos\\RentingApp\\RentingApp\\Program.cs",
+              "RelativeToolTip": "RentingApp\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T14:43:42.183Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CarVersionsController.cs",
+              "DocumentMoniker": "C:\\Users\\Dominik\\Desktop\\Repos\\RentingApp\\RentingApp\\Controllers\\CarVersionsController.cs",
+              "RelativeDocumentMoniker": "RentingApp\\Controllers\\CarVersionsController.cs",
+              "ToolTip": "C:\\Users\\Dominik\\Desktop\\Repos\\RentingApp\\RentingApp\\Controllers\\CarVersionsController.cs",
+              "RelativeToolTip": "RentingApp\\Controllers\\CarVersionsController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAQwCEAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T14:40:34.841Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ReservationsController.cs",
+              "DocumentMoniker": "C:\\Users\\Dominik\\Desktop\\Repos\\RentingApp\\RentingApp\\Controllers\\ReservationsController.cs",
+              "RelativeDocumentMoniker": "RentingApp\\Controllers\\ReservationsController.cs",
+              "ToolTip": "C:\\Users\\Dominik\\Desktop\\Repos\\RentingApp\\RentingApp\\Controllers\\ReservationsController.cs",
+              "RelativeToolTip": "RentingApp\\Controllers\\ReservationsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T14:39:04.414Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\Dominik\\Desktop\\Repos\\RentingApp\\RentingApp\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "RentingApp\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\Dominik\\Desktop\\Repos\\RentingApp\\RentingApp\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "RentingApp\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBgAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T14:30:26.954Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
