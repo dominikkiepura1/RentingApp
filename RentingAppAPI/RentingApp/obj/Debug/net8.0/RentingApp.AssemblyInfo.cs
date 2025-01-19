@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RentingApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+efd883479de7c14a1b92e80c5886428fec45fb42")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+46ee7bd658f4beafa4ed842074ef7c8a325d33f8")]
 [assembly: System.Reflection.AssemblyProductAttribute("RentingApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RentingApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

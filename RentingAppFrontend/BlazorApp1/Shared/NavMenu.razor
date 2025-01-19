@@ -1,30 +1,38 @@
-﻿<div class="top-row ps-3 navbar navbar-dark">
-    <div class="container-fluid">
-        <a class="navbar-brand" href="">BlazorApp1</a>
-        <button title="Navigation menu" class="navbar-toggler" @onclick="ToggleNavMenu">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-    </div>
-</div>
+﻿@using RentingAppFrontend.Services
+@inject AuthService AuthService
 
-<div class="@NavMenuCssClass nav-scrollable" @onclick="ToggleNavMenu">
-    <nav class="flex-column">
-        <li class="nav-item px-3">
-            <NavLink class="nav-link" href="/car-versions">Samochody</NavLink>
-        </li>
-        <li class="nav-item px-3">
-            <NavLink class="nav-link" href="/car-management">Zarządzanie listą</NavLink>
-        </li>
+<div class="sidebar">
+    <h3>Car Rent</h3>
+    <nav>
+        <ul class="nav-menu">
+            <AuthorizeView>
+                <Authorized Context="authContext">
+                    <li>
+                        <NavLink href="/car-versions" class="nav-link" activeClass="active">Samochody</NavLink>
+                    </li>
+                    <li>
+                        <NavLink href="/car-management" class="nav-link" activeClass="active">Zarządzaj listą</NavLink>
+                    </li>
+                    <li>
+                        <button class="logout-button" @onclick="Logout">Wyloguj</button>
+                    </li>
+                </Authorized>
+                <NotAuthorized>
+                    <li>
+                        <NavLink href="/car-versions" class="nav-link" activeClass="active">Samochody</NavLink>
+                    </li>
+                    <li>
+                        <NavLink href="/login" class="nav-link" activeClass="active">Zaloguj</NavLink>
+                    </li>
+                </NotAuthorized>
+            </AuthorizeView>
+        </ul>
     </nav>
 </div>
 
 @code {
-    private bool collapseNavMenu = true;
-
-    private string? NavMenuCssClass => collapseNavMenu ? "collapse" : null;
-
-    private void ToggleNavMenu()
+    private void Logout()
     {
-        collapseNavMenu = !collapseNavMenu;
+        AuthService.Logout();
     }
 }

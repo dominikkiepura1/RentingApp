@@ -2,6 +2,8 @@
 @inject ApiService ApiService
 @using RentingAppFrontend.Services
 @using RentingAppFrontend.Models
+@attribute [Authorize(Roles = "Admin")]
+@inject AuthService AuthService
 
 <h3>Car Management</h3>
 

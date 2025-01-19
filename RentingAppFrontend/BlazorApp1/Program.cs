@@ -1,5 +1,6 @@
 using BlazorApp1.Data;
 using Microsoft.AspNetCore.Components;
+using Microsoft.AspNetCore.Components.Authorization;
 using Microsoft.AspNetCore.Components.Web;
 using RentingAppFrontend.Services;
 
@@ -10,6 +11,9 @@ builder.Services.AddRazorPages();
 builder.Services.AddServerSideBlazor();
 builder.Services.AddSingleton<WeatherForecastService>();
 builder.Services.AddScoped<ApiService>();
+builder.Services.AddScoped<AuthService>();
+builder.Services.AddScoped<AuthenticationStateProvider>(provider => provider.GetRequiredService<AuthService>());
+builder.Services.AddAuthorizationCore();
 
 
 builder.Services.AddHttpClient<ApiService>(client =>

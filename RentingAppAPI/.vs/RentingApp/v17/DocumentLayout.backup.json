@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\Dominik\\Desktop\\Repos\\RentingApp\\RentingAppAPI\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{19B9B658-854C-4BD6-859F-FE52645C8321}|RentingApp\\RentingApp.csproj|c:\\users\\dominik\\desktop\\repos\\rentingapp\\rentingappapi\\rentingapp\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19B9B658-854C-4BD6-859F-FE52645C8321}|RentingApp\\RentingApp.csproj|solutionrelative:rentingapp\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19B9B658-854C-4BD6-859F-FE52645C8321}|RentingApp\\RentingApp.csproj|c:\\users\\dominik\\desktop\\repos\\rentingapp\\rentingappapi\\rentingapp\\controllers\\reservationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19B9B658-854C-4BD6-859F-FE52645C8321}|RentingApp\\RentingApp.csproj|solutionrelative:rentingapp\\controllers\\reservationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{19B9B658-854C-4BD6-859F-FE52645C8321}|RentingApp\\RentingApp.csproj|c:\\users\\dominik\\desktop\\repos\\rentingapp\\rentingappapi\\rentingapp\\controllers\\carversionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{19B9B658-854C-4BD6-859F-FE52645C8321}|RentingApp\\RentingApp.csproj|solutionrelative:rentingapp\\controllers\\carversionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -21,10 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{19B9B658-854C-4BD6-859F-FE52645C8321}|RentingApp\\RentingApp.csproj|c:\\users\\dominik\\desktop\\repos\\rentingapp\\rentingappapi\\rentingapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{19B9B658-854C-4BD6-859F-FE52645C8321}|RentingApp\\RentingApp.csproj|solutionrelative:rentingapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{19B9B658-854C-4BD6-859F-FE52645C8321}|RentingApp\\RentingApp.csproj|c:\\users\\dominik\\desktop\\repos\\rentingapp\\rentingappapi\\rentingapp\\controllers\\reservationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{19B9B658-854C-4BD6-859F-FE52645C8321}|RentingApp\\RentingApp.csproj|solutionrelative:rentingapp\\controllers\\reservationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{19B9B658-854C-4BD6-859F-FE52645C8321}|RentingApp\\RentingApp.csproj|c:\\users\\dominik\\desktop\\repos\\rentingapp\\rentingappapi\\rentingapp\\rentingapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -46,15 +50,28 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Dominik\\Desktop\\Repos\\RentingApp\\RentingAppAPI\\RentingApp\\Models\\User.cs",
+              "RelativeDocumentMoniker": "RentingApp\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\Dominik\\Desktop\\Repos\\RentingApp\\RentingAppAPI\\RentingApp\\Models\\User.cs",
+              "RelativeToolTip": "RentingApp\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T11:49:10.975Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Dominik\\Desktop\\Repos\\RentingApp\\RentingAppAPI\\RentingApp\\appsettings.json",
               "RelativeDocumentMoniker": "RentingApp\\appsettings.json",
@@ -66,7 +83,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "RentingApp.csproj",
               "DocumentMoniker": "C:\\Users\\Dominik\\Desktop\\Repos\\RentingApp\\RentingAppAPI\\RentingApp\\RentingApp.csproj",
               "RelativeDocumentMoniker": "RentingApp\\RentingApp.csproj",
@@ -78,7 +95,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Reservation.cs",
               "DocumentMoniker": "C:\\Users\\Dominik\\Desktop\\Repos\\RentingApp\\RentingAppAPI\\RentingApp\\Models\\Reservation.cs",
               "RelativeDocumentMoniker": "RentingApp\\Models\\Reservation.cs",
@@ -90,7 +107,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "20250105144751_InitialCreate.cs",
               "DocumentMoniker": "C:\\Users\\Dominik\\Desktop\\Repos\\RentingApp\\RentingAppAPI\\RentingApp\\Migrations\\20250105144751_InitialCreate.cs",
               "RelativeDocumentMoniker": "RentingApp\\Migrations\\20250105144751_InitialCreate.cs",
@@ -102,7 +119,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\Dominik\\Desktop\\Repos\\RentingApp\\RentingAppAPI\\RentingApp\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "RentingApp\\Data\\AppDbContext.cs",
@@ -114,7 +131,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Dominik\\Desktop\\Repos\\RentingApp\\RentingAppAPI\\RentingApp\\Program.cs",
               "RelativeDocumentMoniker": "RentingApp\\Program.cs",
@@ -126,7 +143,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "CarVersionsController.cs",
               "DocumentMoniker": "C:\\Users\\Dominik\\Desktop\\Repos\\RentingApp\\RentingAppAPI\\RentingApp\\Controllers\\CarVersionsController.cs",
               "RelativeDocumentMoniker": "RentingApp\\Controllers\\CarVersionsController.cs",
@@ -139,7 +156,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "ReservationsController.cs",
               "DocumentMoniker": "C:\\Users\\Dominik\\Desktop\\Repos\\RentingApp\\RentingAppAPI\\RentingApp\\Controllers\\ReservationsController.cs",
               "RelativeDocumentMoniker": "RentingApp\\Controllers\\ReservationsController.cs",
@@ -147,19 +164,21 @@
               "RelativeToolTip": "RentingApp\\Controllers\\ReservationsController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-05T14:39:04.414Z"
+              "WhenOpened": "2025-01-05T14:39:04.414Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "UsersController.cs",
               "DocumentMoniker": "C:\\Users\\Dominik\\Desktop\\Repos\\RentingApp\\RentingAppAPI\\RentingApp\\Controllers\\UsersController.cs",
               "RelativeDocumentMoniker": "RentingApp\\Controllers\\UsersController.cs",
               "ToolTip": "C:\\Users\\Dominik\\Desktop\\Repos\\RentingApp\\RentingAppAPI\\RentingApp\\Controllers\\UsersController.cs",
               "RelativeToolTip": "RentingApp\\Controllers\\UsersController.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBgAAAAyAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-05T14:30:26.954Z"
+              "WhenOpened": "2025-01-05T14:30:26.954Z",
+              "EditorCaption": ""
             }
           ]
         }
