@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Dominik\\Desktop\\Repos\\RentingAppFrontend\\BlazorApp1\\BlazorApp1.csproj": {}
+    "C:\\Users\\Dominik\\Desktop\\Repos\\RentingApp\\RentingAppFrontend\\BlazorApp1\\BlazorApp1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Dominik\\Desktop\\Repos\\RentingAppFrontend\\BlazorApp1\\BlazorApp1.csproj": {
+    "C:\\Users\\Dominik\\Desktop\\Repos\\RentingApp\\RentingAppFrontend\\BlazorApp1\\BlazorApp1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Dominik\\Desktop\\Repos\\RentingAppFrontend\\BlazorApp1\\BlazorApp1.csproj",
+        "projectUniqueName": "C:\\Users\\Dominik\\Desktop\\Repos\\RentingApp\\RentingAppFrontend\\BlazorApp1\\BlazorApp1.csproj",
         "projectName": "BlazorApp1",
-        "projectPath": "C:\\Users\\Dominik\\Desktop\\Repos\\RentingAppFrontend\\BlazorApp1\\BlazorApp1.csproj",
+        "projectPath": "C:\\Users\\Dominik\\Desktop\\Repos\\RentingApp\\RentingAppFrontend\\BlazorApp1\\BlazorApp1.csproj",
         "packagesPath": "C:\\Users\\Dominik\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Dominik\\Desktop\\Repos\\RentingAppFrontend\\BlazorApp1\\obj\\",
+        "outputPath": "C:\\Users\\Dominik\\Desktop\\Repos\\RentingApp\\RentingAppFrontend\\BlazorApp1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Dominik\\AppData\\Roaming\\NuGet\\NuGet.Config",

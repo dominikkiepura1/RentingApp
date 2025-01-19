@@ -1,38 +1,54 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Dominik\\Desktop\\Repos\\RentingAppFrontend\\",
+  "WorkspaceRootPath": "C:\\Users\\Dominik\\Desktop\\Repos\\RentingApp\\RentingAppFrontend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C8A90A6A-7C17-4F57-90B1-A7DCEDB18E14}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\dominik\\desktop\\repos\\rentingappfrontend\\blazorapp1\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{C8A90A6A-7C17-4F57-90B1-A7DCEDB18E14}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{C8A90A6A-7C17-4F57-90B1-A7DCEDB18E14}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\dominik\\desktop\\repos\\rentingapp\\rentingappfrontend\\blazorapp1\\shared\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C8A90A6A-7C17-4F57-90B1-A7DCEDB18E14}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\shared\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C8A90A6A-7C17-4F57-90B1-A7DCEDB18E14}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\dominik\\desktop\\repos\\rentingappfrontend\\blazorapp1\\pages\\_host.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C8A90A6A-7C17-4F57-90B1-A7DCEDB18E14}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\pages\\_host.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{C8A90A6A-7C17-4F57-90B1-A7DCEDB18E14}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\dominik\\desktop\\repos\\rentingapp\\rentingappfrontend\\blazorapp1\\pages\\carmanagement.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C8A90A6A-7C17-4F57-90B1-A7DCEDB18E14}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\pages\\carmanagement.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C8A90A6A-7C17-4F57-90B1-A7DCEDB18E14}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\dominik\\desktop\\repos\\rentingappfrontend\\blazorapp1\\pages\\carversions.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C8A90A6A-7C17-4F57-90B1-A7DCEDB18E14}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\pages\\carversions.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{C8A90A6A-7C17-4F57-90B1-A7DCEDB18E14}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\dominik\\desktop\\repos\\rentingapp\\rentingappfrontend\\blazorapp1\\pages\\reservations.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C8A90A6A-7C17-4F57-90B1-A7DCEDB18E14}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\pages\\reservations.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C8A90A6A-7C17-4F57-90B1-A7DCEDB18E14}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\dominik\\desktop\\repos\\rentingappfrontend\\blazorapp1\\models\\carversion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C8A90A6A-7C17-4F57-90B1-A7DCEDB18E14}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\models\\carversion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C8A90A6A-7C17-4F57-90B1-A7DCEDB18E14}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\dominik\\desktop\\repos\\rentingapp\\rentingappfrontend\\blazorapp1\\services\\apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8A90A6A-7C17-4F57-90B1-A7DCEDB18E14}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\services\\apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C8A90A6A-7C17-4F57-90B1-A7DCEDB18E14}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\dominik\\desktop\\repos\\rentingappfrontend\\blazorapp1\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C8A90A6A-7C17-4F57-90B1-A7DCEDB18E14}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C8A90A6A-7C17-4F57-90B1-A7DCEDB18E14}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\dominik\\desktop\\repos\\rentingappfrontend\\blazorapp1\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C8A90A6A-7C17-4F57-90B1-A7DCEDB18E14}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C8A90A6A-7C17-4F57-90B1-A7DCEDB18E14}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\dominik\\desktop\\repos\\rentingappfrontend\\blazorapp1\\models\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C8A90A6A-7C17-4F57-90B1-A7DCEDB18E14}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\dominik\\desktop\\repos\\rentingapp\\rentingappfrontend\\blazorapp1\\models\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C8A90A6A-7C17-4F57-90B1-A7DCEDB18E14}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\models\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C8A90A6A-7C17-4F57-90B1-A7DCEDB18E14}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\dominik\\desktop\\repos\\rentingappfrontend\\blazorapp1\\services\\apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C8A90A6A-7C17-4F57-90B1-A7DCEDB18E14}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\services\\apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C8A90A6A-7C17-4F57-90B1-A7DCEDB18E14}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\dominik\\desktop\\repos\\rentingapp\\rentingappfrontend\\blazorapp1\\pages\\carversions.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C8A90A6A-7C17-4F57-90B1-A7DCEDB18E14}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\pages\\carversions.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8A90A6A-7C17-4F57-90B1-A7DCEDB18E14}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\dominik\\desktop\\repos\\rentingapp\\rentingappfrontend\\blazorapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8A90A6A-7C17-4F57-90B1-A7DCEDB18E14}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8A90A6A-7C17-4F57-90B1-A7DCEDB18E14}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\dominik\\desktop\\repos\\rentingapp\\rentingappfrontend\\blazorapp1\\models\\carversion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8A90A6A-7C17-4F57-90B1-A7DCEDB18E14}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\models\\carversion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8A90A6A-7C17-4F57-90B1-A7DCEDB18E14}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\dominik\\desktop\\repos\\rentingapp\\rentingappfrontend\\blazorapp1\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{C8A90A6A-7C17-4F57-90B1-A7DCEDB18E14}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8A90A6A-7C17-4F57-90B1-A7DCEDB18E14}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\dominik\\desktop\\repos\\rentingapp\\rentingappfrontend\\blazorapp1\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C8A90A6A-7C17-4F57-90B1-A7DCEDB18E14}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8A90A6A-7C17-4F57-90B1-A7DCEDB18E14}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\dominik\\desktop\\repos\\rentingapp\\rentingappfrontend\\blazorapp1\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8A90A6A-7C17-4F57-90B1-A7DCEDB18E14}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8A90A6A-7C17-4F57-90B1-A7DCEDB18E14}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\dominik\\desktop\\repos\\rentingapp\\rentingappfrontend\\blazorapp1\\pages\\_host.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C8A90A6A-7C17-4F57-90B1-A7DCEDB18E14}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\pages\\_host.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,115 +58,158 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "site.css",
-              "DocumentMoniker": "C:\\Users\\Dominik\\Desktop\\Repos\\RentingAppFrontend\\BlazorApp1\\wwwroot\\css\\site.css",
-              "RelativeDocumentMoniker": "BlazorApp1\\wwwroot\\css\\site.css",
-              "ToolTip": "C:\\Users\\Dominik\\Desktop\\Repos\\RentingAppFrontend\\BlazorApp1\\wwwroot\\css\\site.css",
-              "RelativeToolTip": "BlazorApp1\\wwwroot\\css\\site.css",
-              "ViewState": "AgIAAGYAAAAAAAAAAAAiwIUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-01-11T18:48:55.209Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "_Host.cshtml",
-              "DocumentMoniker": "C:\\Users\\Dominik\\Desktop\\Repos\\RentingAppFrontend\\BlazorApp1\\Pages\\_Host.cshtml",
-              "RelativeDocumentMoniker": "BlazorApp1\\Pages\\_Host.cshtml",
-              "ToolTip": "C:\\Users\\Dominik\\Desktop\\Repos\\RentingAppFrontend\\BlazorApp1\\Pages\\_Host.cshtml",
-              "RelativeToolTip": "BlazorApp1\\Pages\\_Host.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-11T18:47:24.947Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "App.razor",
-              "DocumentMoniker": "C:\\Users\\Dominik\\Desktop\\Repos\\RentingAppFrontend\\BlazorApp1\\App.razor",
-              "RelativeDocumentMoniker": "BlazorApp1\\App.razor",
-              "ToolTip": "C:\\Users\\Dominik\\Desktop\\Repos\\RentingAppFrontend\\BlazorApp1\\App.razor",
-              "RelativeToolTip": "BlazorApp1\\App.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-09T17:55:06.09Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "CarVersions.razor",
-              "DocumentMoniker": "C:\\Users\\Dominik\\Desktop\\Repos\\RentingAppFrontend\\BlazorApp1\\Pages\\CarVersions.razor",
-              "RelativeDocumentMoniker": "BlazorApp1\\Pages\\CarVersions.razor",
-              "ToolTip": "C:\\Users\\Dominik\\Desktop\\Repos\\RentingAppFrontend\\BlazorApp1\\Pages\\CarVersions.razor",
-              "RelativeToolTip": "BlazorApp1\\Pages\\CarVersions.razor",
-              "ViewState": "AgIAABgAAAAAAAAAAAAqwC0AAAAgAAAAAAAAAA==",
+              "Title": "Reservations.razor",
+              "DocumentMoniker": "C:\\Users\\Dominik\\Desktop\\Repos\\RentingApp\\RentingAppFrontend\\BlazorApp1\\Pages\\Reservations.razor",
+              "RelativeDocumentMoniker": "BlazorApp1\\Pages\\Reservations.razor",
+              "ToolTip": "C:\\Users\\Dominik\\Desktop\\Repos\\RentingApp\\RentingAppFrontend\\BlazorApp1\\Pages\\Reservations.razor",
+              "RelativeToolTip": "BlazorApp1\\Pages\\Reservations.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-09T17:54:49.009Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ApiService.cs",
-              "DocumentMoniker": "C:\\Users\\Dominik\\Desktop\\Repos\\RentingAppFrontend\\BlazorApp1\\Services\\ApiService.cs",
-              "RelativeDocumentMoniker": "BlazorApp1\\Services\\ApiService.cs",
-              "ToolTip": "C:\\Users\\Dominik\\Desktop\\Repos\\RentingAppFrontend\\BlazorApp1\\Services\\ApiService.cs",
-              "RelativeToolTip": "BlazorApp1\\Services\\ApiService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-09T17:53:56.817Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\Dominik\\Desktop\\Repos\\RentingAppFrontend\\BlazorApp1\\Models\\User.cs",
-              "RelativeDocumentMoniker": "BlazorApp1\\Models\\User.cs",
-              "ToolTip": "C:\\Users\\Dominik\\Desktop\\Repos\\RentingAppFrontend\\BlazorApp1\\Models\\User.cs",
-              "RelativeToolTip": "BlazorApp1\\Models\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-09T17:53:05.07Z",
+              "WhenOpened": "2025-01-18T18:19:29.24Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "Reservation.cs",
-              "DocumentMoniker": "C:\\Users\\Dominik\\Desktop\\Repos\\RentingAppFrontend\\BlazorApp1\\Models\\Reservation.cs",
-              "RelativeDocumentMoniker": "BlazorApp1\\Models\\Reservation.cs",
-              "ToolTip": "C:\\Users\\Dominik\\Desktop\\Repos\\RentingAppFrontend\\BlazorApp1\\Models\\Reservation.cs",
-              "RelativeToolTip": "BlazorApp1\\Models\\Reservation.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Dominik\\Desktop\\Repos\\RentingApp\\RentingAppFrontend\\BlazorApp1\\Program.cs",
+              "RelativeDocumentMoniker": "BlazorApp1\\Program.cs",
+              "ToolTip": "C:\\Users\\Dominik\\Desktop\\Repos\\RentingApp\\RentingAppFrontend\\BlazorApp1\\Program.cs",
+              "RelativeToolTip": "BlazorApp1\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-09T17:52:53.798Z",
+              "WhenOpened": "2025-01-18T18:13:19.194Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\Users\\Dominik\\Desktop\\Repos\\RentingApp\\RentingAppFrontend\\BlazorApp1\\Shared\\NavMenu.razor",
+              "RelativeDocumentMoniker": "BlazorApp1\\Shared\\NavMenu.razor",
+              "ToolTip": "C:\\Users\\Dominik\\Desktop\\Repos\\RentingApp\\RentingAppFrontend\\BlazorApp1\\Shared\\NavMenu.razor",
+              "RelativeToolTip": "BlazorApp1\\Shared\\NavMenu.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-18T18:05:55.428Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CarVersion.cs",
-              "DocumentMoniker": "C:\\Users\\Dominik\\Desktop\\Repos\\RentingAppFrontend\\BlazorApp1\\Models\\CarVersion.cs",
-              "RelativeDocumentMoniker": "BlazorApp1\\Models\\CarVersion.cs",
-              "ToolTip": "C:\\Users\\Dominik\\Desktop\\Repos\\RentingAppFrontend\\BlazorApp1\\Models\\CarVersion.cs",
-              "RelativeToolTip": "BlazorApp1\\Models\\CarVersion.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-09T17:52:36.836Z",
+              "DocumentIndex": 1,
+              "Title": "CarManagement.razor",
+              "DocumentMoniker": "C:\\Users\\Dominik\\Desktop\\Repos\\RentingApp\\RentingAppFrontend\\BlazorApp1\\Pages\\CarManagement.razor",
+              "RelativeDocumentMoniker": "BlazorApp1\\Pages\\CarManagement.razor",
+              "ToolTip": "C:\\Users\\Dominik\\Desktop\\Repos\\RentingApp\\RentingAppFrontend\\BlazorApp1\\Pages\\CarManagement.razor",
+              "RelativeToolTip": "BlazorApp1\\Pages\\CarManagement.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-18T17:59:33.483Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\Dominik\\Desktop\\Repos\\RentingApp\\RentingAppFrontend\\BlazorApp1\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "BlazorApp1\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\Dominik\\Desktop\\Repos\\RentingApp\\RentingAppFrontend\\BlazorApp1\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "BlazorApp1\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-01-11T18:48:55.209Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "_Host.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dominik\\Desktop\\Repos\\RentingApp\\RentingAppFrontend\\BlazorApp1\\Pages\\_Host.cshtml",
+              "RelativeDocumentMoniker": "BlazorApp1\\Pages\\_Host.cshtml",
+              "ToolTip": "C:\\Users\\Dominik\\Desktop\\Repos\\RentingApp\\RentingAppFrontend\\BlazorApp1\\Pages\\_Host.cshtml",
+              "RelativeToolTip": "BlazorApp1\\Pages\\_Host.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-11T18:47:24.947Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "App.razor",
+              "DocumentMoniker": "C:\\Users\\Dominik\\Desktop\\Repos\\RentingApp\\RentingAppFrontend\\BlazorApp1\\App.razor",
+              "RelativeDocumentMoniker": "BlazorApp1\\App.razor",
+              "ToolTip": "C:\\Users\\Dominik\\Desktop\\Repos\\RentingApp\\RentingAppFrontend\\BlazorApp1\\App.razor",
+              "RelativeToolTip": "BlazorApp1\\App.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-09T17:55:06.09Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CarVersions.razor",
+              "DocumentMoniker": "C:\\Users\\Dominik\\Desktop\\Repos\\RentingApp\\RentingAppFrontend\\BlazorApp1\\Pages\\CarVersions.razor",
+              "RelativeDocumentMoniker": "BlazorApp1\\Pages\\CarVersions.razor",
+              "ToolTip": "C:\\Users\\Dominik\\Desktop\\Repos\\RentingApp\\RentingAppFrontend\\BlazorApp1\\Pages\\CarVersions.razor",
+              "RelativeToolTip": "BlazorApp1\\Pages\\CarVersions.razor",
+              "ViewState": "AgIAABkAAAAAAAAAAAAvwDIAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-09T17:54:49.009Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ApiService.cs",
+              "DocumentMoniker": "C:\\Users\\Dominik\\Desktop\\Repos\\RentingApp\\RentingAppFrontend\\BlazorApp1\\Services\\ApiService.cs",
+              "RelativeDocumentMoniker": "BlazorApp1\\Services\\ApiService.cs",
+              "ToolTip": "C:\\Users\\Dominik\\Desktop\\Repos\\RentingApp\\RentingAppFrontend\\BlazorApp1\\Services\\ApiService.cs",
+              "RelativeToolTip": "BlazorApp1\\Services\\ApiService.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAuwEYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-09T17:53:56.817Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Dominik\\Desktop\\Repos\\RentingApp\\RentingAppFrontend\\BlazorApp1\\Models\\User.cs",
+              "RelativeDocumentMoniker": "BlazorApp1\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\Dominik\\Desktop\\Repos\\RentingApp\\RentingAppFrontend\\BlazorApp1\\Models\\User.cs",
+              "RelativeToolTip": "BlazorApp1\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-09T17:53:05.07Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Reservation.cs",
+              "DocumentMoniker": "C:\\Users\\Dominik\\Desktop\\Repos\\RentingApp\\RentingAppFrontend\\BlazorApp1\\Models\\Reservation.cs",
+              "RelativeDocumentMoniker": "BlazorApp1\\Models\\Reservation.cs",
+              "ToolTip": "C:\\Users\\Dominik\\Desktop\\Repos\\RentingApp\\RentingAppFrontend\\BlazorApp1\\Models\\Reservation.cs",
+              "RelativeToolTip": "BlazorApp1\\Models\\Reservation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-09T17:52:53.798Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CarVersion.cs",
+              "DocumentMoniker": "C:\\Users\\Dominik\\Desktop\\Repos\\RentingApp\\RentingAppFrontend\\BlazorApp1\\Models\\CarVersion.cs",
+              "RelativeDocumentMoniker": "BlazorApp1\\Models\\CarVersion.cs",
+              "ToolTip": "C:\\Users\\Dominik\\Desktop\\Repos\\RentingApp\\RentingAppFrontend\\BlazorApp1\\Models\\CarVersion.cs",
+              "RelativeToolTip": "BlazorApp1\\Models\\CarVersion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-09T17:52:36.836Z"
             }
           ]
         }

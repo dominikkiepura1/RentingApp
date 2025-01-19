@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Dominik\\Desktop\\Repos\\RentingApp\\RentingApp\\RentingApp.csproj": {}
+    "C:\\Users\\Dominik\\Desktop\\Repos\\RentingApp\\RentingAppAPI\\RentingApp\\RentingApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Dominik\\Desktop\\Repos\\RentingApp\\RentingApp\\RentingApp.csproj": {
+    "C:\\Users\\Dominik\\Desktop\\Repos\\RentingApp\\RentingAppAPI\\RentingApp\\RentingApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Dominik\\Desktop\\Repos\\RentingApp\\RentingApp\\RentingApp.csproj",
+        "projectUniqueName": "C:\\Users\\Dominik\\Desktop\\Repos\\RentingApp\\RentingAppAPI\\RentingApp\\RentingApp.csproj",
         "projectName": "RentingApp",
-        "projectPath": "C:\\Users\\Dominik\\Desktop\\Repos\\RentingApp\\RentingApp\\RentingApp.csproj",
+        "projectPath": "C:\\Users\\Dominik\\Desktop\\Repos\\RentingApp\\RentingAppAPI\\RentingApp\\RentingApp.csproj",
         "packagesPath": "C:\\Users\\Dominik\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Dominik\\Desktop\\Repos\\RentingApp\\RentingApp\\obj\\",
+        "outputPath": "C:\\Users\\Dominik\\Desktop\\Repos\\RentingApp\\RentingAppAPI\\RentingApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Dominik\\AppData\\Roaming\\NuGet\\NuGet.Config",

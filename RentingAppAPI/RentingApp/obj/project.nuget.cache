@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "IIJd4SwJMGM=",
+  "dgSpecHash": "5NX+jQkurOI=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Dominik\\Desktop\\Repos\\RentingApp\\RentingApp\\RentingApp.csproj",
+  "projectFilePath": "C:\\Users\\Dominik\\Desktop\\Repos\\RentingApp\\RentingAppAPI\\RentingApp\\RentingApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Dominik\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Dominik\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

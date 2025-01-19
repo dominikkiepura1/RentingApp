@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "E2Kjn3509dk=",
+  "dgSpecHash": "R2zFpt359DM=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Dominik\\Desktop\\Repos\\RentingAppFrontend\\BlazorApp1\\BlazorApp1.csproj",
+  "projectFilePath": "C:\\Users\\Dominik\\Desktop\\Repos\\RentingApp\\RentingAppFrontend\\BlazorApp1\\BlazorApp1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Dominik\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.20\\microsoft.windowsdesktop.app.ref.7.0.20.nupkg.sha512",
     "C:\\Users\\Dominik\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.20\\microsoft.netcore.app.ref.7.0.20.nupkg.sha512",

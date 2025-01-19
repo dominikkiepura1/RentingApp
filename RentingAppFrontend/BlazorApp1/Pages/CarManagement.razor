@@ -1,0 +1,154 @@
+﻿@page "/car-management"
+@inject ApiService ApiService
+@using RentingAppFrontend.Services
+@using RentingAppFrontend.Models
+
+<h3>Car Management</h3>
+
+@if (isLoading)
+{
+    <p>Loading cars...</p>
+}
+else if (carVersions == null || carVersions.Count == 0)
+{
+    <p>No cars available.</p>
+}
+else
+{
+    <table>
+        <thead>
+            <tr>
+                <th>Brand</th>
+                <th>Model</th>
+                <th>Price Per Day</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var car in carVersions)
+            {
+                <tr>
+                    <td>@car.Brand</td>
+                    <td>@car.Model</td>
+                    <td>@car.PricePerDay</td>
+                    <td>
+                        <button @onclick="() => EditCarVersion(car)">Edit</button>
+                        <button @onclick="() => DeleteCarVersion(car.Id)">Delete</button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+<button @onclick="AddNewCar">Add New Car</button>
+
+@if (selectedCarVersion != null)
+{
+    <EditForm Model="@selectedCarVersion" OnValidSubmit="HandleValidSubmit">
+        <DataAnnotationsValidator />
+        <ValidationSummary />
+
+        <div>
+            <label>Brand:</label>
+            <InputText @bind-Value="selectedCarVersion.Brand" />
+        </div>
+        <div>
+            <label>Model:</label>
+            <InputText @bind-Value="selectedCarVersion.Model" />
+        </div>
+        <div>
+            <label>Price Per Day:</label>
+            <InputNumber @bind-Value="selectedCarVersion.PricePerDay" />
+        </div>
+        <button type="submit">Save</button>
+        <button type="button" @onclick="CancelEdit">Cancel</button>
+    </EditForm>
+}
+
+@code {
+    private List<CarVersion> carVersions = new List<CarVersion>();
+    private CarVersion selectedCarVersion;
+    private bool isLoading = true;
+
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            // Pobierz dane samochodów z API
+            carVersions = await ApiService.GetCarVersionsAsync();
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error loading cars: {ex.Message}");
+            carVersions = new List<CarVersion>(); // Ustawienie pustej listy w przypadku błędu
+        }
+        finally
+        {
+            isLoading = false; // Zakończ ładowanie
+        }
+    }
+
+    private void AddNewCar()
+    {
+        // Inicjalizacja nowego samochodu do formularza
+        selectedCarVersion = new CarVersion();
+    }
+
+    private void EditCarVersion(CarVersion carVersion)
+    {
+        // Kopia wybranego samochodu, aby umożliwić edycję
+        selectedCarVersion = new CarVersion
+            {
+                Id = carVersion.Id,
+                Brand = carVersion.Brand,
+                Model = carVersion.Model,
+                PricePerDay = carVersion.PricePerDay
+            };
+    }
+
+    private async Task DeleteCarVersion(int id)
+    {
+        try
+        {
+            // Usuń samochód za pomocą API
+            await ApiService.DeleteCarVersionAsync(id);
+            carVersions = await ApiService.GetCarVersionsAsync(); // Odśwież listę
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error deleting car: {ex.Message}");
+        }
+    }
+
+    private void CancelEdit()
+    {
+        // Anuluj edycję i wyczyść formularz
+        selectedCarVersion = null;
+    }
+
+    private async Task HandleValidSubmit()
+    {
+        try
+        {
+            if (selectedCarVersion.Id == 0)
+            {
+                // Dodaj nowy samochód
+                await ApiService.CreateCarVersionAsync(selectedCarVersion);
+            }
+            else
+            {
+                // Zaktualizuj istniejący samochód
+                await ApiService.UpdateCarVersionAsync(selectedCarVersion);
+            }
+
+            // Odśwież listę i wyczyść formularz
+            carVersions = await ApiService.GetCarVersionsAsync();
+            selectedCarVersion = null;
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error saving car: {ex.Message}");
+        }
+    }
+}
