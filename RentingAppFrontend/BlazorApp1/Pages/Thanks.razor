@@ -1,0 +1,13 @@
+﻿@page "/thanks"
+@inject NavigationManager NavigationManager
+
+<h3>Dziękujemy za zakupy!</h3>
+<p>Twoje zamówienie zostało przyjęte do realizacji.</p>
+<button @onclick="NavigateHome">Wróć do strony głównej</button>
+
+@code {
+    private void NavigateHome()
+    {
+        NavigationManager.NavigateTo("/");
+    }
+}

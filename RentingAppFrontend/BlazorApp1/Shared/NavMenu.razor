@@ -11,6 +11,9 @@
                         <AuthorizeView Roles="Admin">
                             <Authorized Context="authContext">
                                 <li>
+                                    <NavLink href="/basket" class="nav-link" activeClass="active">Koszyk</NavLink>
+                                </li>
+                                <li>
                                     <NavLink href="/car-versions" class="nav-link" activeClass="active">Samochody</NavLink>
                                 </li>
                                 <li>
@@ -24,6 +27,9 @@
                         <AuthorizeView Roles="User">
                             <Authorized Context="authContext">
                                 <li>
+                                    <NavLink href="/basket" class="nav-link" activeClass="active">Koszyk</NavLink>
+                                </li>
+                                <li>
                                     <NavLink href="/car-versions" class="nav-link" activeClass="active">Samochody</NavLink>
                                 </li>
                                 <li>
@@ -33,6 +39,9 @@
                         </AuthorizeView>
                     </Authorized>
                 <NotAuthorized>
+                    <li>
+                        <NavLink href="/basket" class="nav-link" activeClass="active">Koszyk</NavLink>
+                    </li>
                     <li>
                         <NavLink href="/car-versions" class="nav-link" activeClass="active">Samochody</NavLink>
                     </li>

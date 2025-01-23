@@ -22,6 +22,10 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Dominik/Desktop/Repos/RentingApp/RentingAppFrontend/BlazorApp1/Pages/Basket.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmFza2V0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Dominik/Desktop/Repos/RentingApp/RentingAppFrontend/BlazorApp1/Pages/CarManagement.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FyTWFuYWdlbWVudC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
@@ -48,6 +52,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/Dominik/Desktop/Repos/RentingApp/RentingAppFrontend/BlazorApp1/Pages/Reservations.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVzZXJ2YXRpb25zLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dominik/Desktop/Repos/RentingApp/RentingAppFrontend/BlazorApp1/Pages/Thanks.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGhhbmtzLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Dominik/Desktop/Repos/RentingApp/RentingAppFrontend/BlazorApp1/Shared/SurveyPrompt.razor]

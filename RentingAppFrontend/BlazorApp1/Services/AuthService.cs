@@ -1,4 +1,6 @@
-﻿using System.Security.Claims;
+﻿using System.Collections.Generic;
+using System.Linq;
+using System.Security.Claims;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Components.Authorization;
 using RentingAppFrontend.Models;
@@ -8,6 +10,7 @@ namespace RentingAppFrontend.Services
     public class AuthService : AuthenticationStateProvider
     {
         private User _currentUser;
+        private List<CarVersion> _cart = new List<CarVersion>();
 
         private readonly List<User> _users = new List<User>
         {
@@ -28,6 +31,7 @@ namespace RentingAppFrontend.Services
         public void Logout()
         {
             _currentUser = null;
+            _cart.Clear();
             NotifyAuthenticationStateChanged(GetAuthenticationStateAsync());
         }
 
@@ -44,5 +48,35 @@ namespace RentingAppFrontend.Services
             var user = new ClaimsPrincipal(identity);
             return Task.FromResult(new AuthenticationState(user));
         }
+
+        public void AddToCart(CarVersion car)
+        {
+            if (_currentUser != null)
+            {
+                _cart.Add(car);
+            }
+        }
+
+        public List<CarVersion> GetCartItems()
+        {
+            return _currentUser != null ? _cart : new List<CarVersion>();
+        }
+
+        public void RemoveFromCart(CarVersion car)
+        {
+            if (_currentUser != null)
+            {
+                _cart.Remove(car);
+            }
+        }
+
+        public void ClearCart()
+        {
+            if (_currentUser != null)
+            {
+                _cart.Clear();
+            }
+        }
+
     }
 }

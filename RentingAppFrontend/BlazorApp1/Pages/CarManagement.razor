@@ -34,8 +34,8 @@ else
                     <td>@car.Model</td>
                     <td>@car.PricePerDay</td>
                     <td>
-                        <button @onclick="() => EditCarVersion(car)">Edit</button>
-                        <button @onclick="() => DeleteCarVersion(car.Id)">Delete</button>
+                        <button @onclick="() => EditCarVersion(car)">Edytuj</button>
+                        <button @onclick="() => DeleteCarVersion(car.Id)">Usuń</button>
                     </td>
                 </tr>
             }
@@ -43,7 +43,7 @@ else
     </table>
 }
 
-<button @onclick="AddNewCar">Add New Car</button>
+<button @onclick="AddNewCar">Dodaj nowy samochód</button>
 
 @if (selectedCarVersion != null)
 {

@@ -2,8 +2,16 @@
 @using RentingAppFrontend.Models
 @using RentingAppFrontend.Services
 @inject ApiService ApiService
+@inject AuthService AuthService
 
 <h3>Dostępne Samochody</h3>
+
+@if (showNotification)
+{
+    <div class="notification">
+        Dodano do koszyka!
+    </div>
+}
 
 <table>
     <thead>
@@ -22,7 +30,7 @@
                 <td>@car.Model</td>
                 <td>@car.PricePerDay PLN</td>
                 <td>
-                    <button @onclick="() => CreateReservation(car)">Rezerwuj</button>
+                    <button @onclick="() => AddToCart(car)">Rezerwuj</button>
                 </td>
             </tr>
         }
@@ -31,24 +39,21 @@
 
 @code {
     private List<CarVersion> Cars = new();
+    private bool showNotification = false;
 
     protected override async Task OnInitializedAsync()
     {
         Cars = await ApiService.GetCarVersionsAsync();
     }
 
-    private async Task CreateReservation(CarVersion car)
+    private void AddToCart(CarVersion car)
     {
-        var reservation = new Reservation
-            {
-                UserId = 1, // Przykładowy UserId
-                Type = "Car",
-                ItemId = car.Id,
-                StartDate = DateTime.Now,
-                EndDate = DateTime.Now.AddDays(2)
-            };
+        AuthService.AddToCart(car);
+        showNotification = true;
 
-        await ApiService.CreateReservationAsync(reservation);
-        Console.WriteLine("Rezerwacja utworzona!");
+        // Ukryj powiadomienie po 3 sekundach
+        Task.Delay(3000).ContinueWith(_ => InvokeAsync(() => showNotification = false));
+
+        Console.WriteLine($"Dodano do koszyka: {car.Brand} - {car.Model}");
     }
 }

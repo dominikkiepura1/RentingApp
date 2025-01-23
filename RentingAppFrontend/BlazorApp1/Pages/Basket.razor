@@ -1,0 +1,57 @@
+﻿@page "/basket"
+@using RentingAppFrontend.Models
+@using RentingAppFrontend.Services
+@inject AuthService AuthService
+@inject NavigationManager NavigationManager
+@attribute [Authorize]
+
+<h3>Twój Koszyk</h3>
+
+<AuthorizeView>
+    <Authorized>
+        @if (cartItems.Any())
+        {
+            <ul class="cart-list">
+                @foreach (var car in cartItems)
+                {
+                    <li class="cart-item">
+                        <span>@car.Brand - @car.Model - @car.PricePerDay zł</span>
+                        <button @onclick="() => RemoveFromCart(car)" class="remove-button">Usuń</button>
+                    </li>
+                }
+            </ul>
+            <button @onclick="FinalizePurchase" class="finalize-button">Zatwierdź Zakup</button>
+        }
+        else
+        {
+            <p>Twój koszyk jest pusty.</p>
+        }
+    </Authorized>
+    <NotAuthorized>
+        <p>Musisz być zalogowany, aby zobaczyć swój koszyk.</p>
+    </NotAuthorized>
+</AuthorizeView>
+
+@code {
+    private List<CarVersion> cartItems = new List<CarVersion>();
+
+    protected override void OnInitialized()
+    {
+        cartItems = AuthService.GetCartItems();
+    }
+
+    private void RemoveFromCart(CarVersion car)
+    {
+        AuthService.RemoveFromCart(car);
+        cartItems = AuthService.GetCartItems(); // Odświeżenie listy koszyka
+    }
+
+    private void FinalizePurchase()
+    {
+        // Tutaj możesz dodać logikę finalizacji zakupu
+        Console.WriteLine("Zakup zatwierdzony!");
+        AuthService.ClearCart();
+        cartItems = AuthService.GetCartItems(); // Opróżnienie koszyka po finalizacji
+        NavigationManager.NavigateTo("/thanks"); // Przekierowanie na stronę podziękowania
+    }
+}
