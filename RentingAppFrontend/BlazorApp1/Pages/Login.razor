@@ -12,16 +12,17 @@
 }
 
 <EditForm Model="@loginModel" OnValidSubmit="HandleLogin">
-    <div>
-        <label>Username:</label>
-        <InputText @bind-Value="loginModel.Username" />
-    </div>
-    <div>
-        <label>Password:</label>
-        <InputText @bind-Value="loginModel.Password" Type="password" />
-    </div>
-    <button type="submit">Login</button>
+        <div ="form-row">
+            <label>Login:</label>
+            <InputText @bind-Value="loginModel.Username" />
+        </div>
+        <div class="form-row">
+            <label>Hasło:</label>
+            <InputText @bind-Value="loginModel.Password" Type="password" />
+        </div>
+        <button type="submit">Login</button>
 </EditForm>
+
 
 @code {
     private LoginModel loginModel = new LoginModel();
@@ -36,7 +37,7 @@
         }
         else
         {
-            errorMessage = "Invalid username or password.";
+            errorMessage = "Niepoprawny login lub hasło.";
         }
     }
 

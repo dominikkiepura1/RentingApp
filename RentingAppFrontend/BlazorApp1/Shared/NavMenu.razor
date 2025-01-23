@@ -1,22 +1,37 @@
 ﻿@using RentingAppFrontend.Services
 @inject AuthService AuthService
+@inject NavigationManager NavigationManager
 
 <div class="sidebar">
-    <h3>Car Rent</h3>
+    <h3 class="sidebar-title">Car Rent</h3>
     <nav>
         <ul class="nav-menu">
             <AuthorizeView>
-                <Authorized Context="authContext">
-                    <li>
-                        <NavLink href="/car-versions" class="nav-link" activeClass="active">Samochody</NavLink>
-                    </li>
-                    <li>
-                        <NavLink href="/car-management" class="nav-link" activeClass="active">Zarządzaj listą</NavLink>
-                    </li>
-                    <li>
-                        <button class="logout-button" @onclick="Logout">Wyloguj</button>
-                    </li>
-                </Authorized>
+                    <Authorized>
+                        <AuthorizeView Roles="Admin">
+                            <Authorized Context="authContext">
+                                <li>
+                                    <NavLink href="/car-versions" class="nav-link" activeClass="active">Samochody</NavLink>
+                                </li>
+                                <li>
+                                    <NavLink href="/car-management" class="nav-link" activeClass="active">Zarządzaj listą</NavLink>
+                                </li>
+                                <li>
+                                    <button class="logout-button" @onclick="Logout">Wyloguj</button>
+                                </li>
+                            </Authorized>
+                        </AuthorizeView>
+                        <AuthorizeView Roles="User">
+                            <Authorized Context="authContext">
+                                <li>
+                                    <NavLink href="/car-versions" class="nav-link" activeClass="active">Samochody</NavLink>
+                                </li>
+                                <li>
+                                    <button class="logout-button" @onclick="Logout">Wyloguj</button>
+                                </li>
+                            </Authorized>
+                        </AuthorizeView>
+                    </Authorized>
                 <NotAuthorized>
                     <li>
                         <NavLink href="/car-versions" class="nav-link" activeClass="active">Samochody</NavLink>
@@ -34,5 +49,6 @@
     private void Logout()
     {
         AuthService.Logout();
+        NavigationManager.NavigateTo("/");
     }
 }
